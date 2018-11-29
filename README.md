@@ -16,3 +16,8 @@ Comprobamos que tenemos instalado composer.
 ```php
 php composer.phar
 ```
+
+Para mayor comodidad lo renombraremos como `composer` y lo moveremos a `/usr/local/bin`.
+```bash
+mv ./composer.phar /usr/local/bin/composer
+```
