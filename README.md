@@ -25,4 +25,11 @@ mv ./composer.phar /usr/local/bin/composer
 Ahora sí que procedemos a la instalación de laravel.
 ```bash
 composer global require laravel/installer
+
+#Comprobamos que se ha instalado correctamente.
+laravel
+
+#Descargamos e instalamos valet
+composer global require laravel/valet
+valet install
 ```
