@@ -33,3 +33,20 @@ laravel
 composer global require laravel/valet
 valet install
 ```
+El siguiente paso será crear un directorio de trabajo. Lo propio sería hacerlo donde tengamos alojadas las webs de nuestro servidor local.
+```bash
+mkdir ~/sites/laravel
+cd ~/sites/laravel
+
+#Agregamos este directorio a los path de valet
+valet park
+```
+
+Comprobar que tenemos la última versión de valet
+```bash
+valet on-latest-version
+```
+Si no es así podemos actualizarlo.
+```bash
+composer global update laravel/valet
+```
